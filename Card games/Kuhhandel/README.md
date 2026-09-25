@@ -6,7 +6,7 @@ Manuals: [German](https://www.ravensburger.de/spieleanleitungen/ecm/Spielanleitu
 # Evaluation
 
 During play, it turns out the actual values of the cards in terms of how valuable a card is to a player are different from the values that are written on them, so I pondered how to quantify this difference. I had the idea to look at all possible outcomes of a game of Cattle Trade and assign a point to each card for every outcome in which it belongs to the winning player. Then we might adjust our bidding according to these scores.\
-This isn't, however, a very sensible way to assign scores, as a lot of the possible outcomes will never happen during actual play (e.g. the outcome where all cards end up at one player and all other players end up with none probably won't happen), so I added the assumption that there is a range in the number of cards such that every player gets a number in this range.
+This isn't, however, a very sensible way to assign scores, as a lot of the possible outcomes will never happen during actual play (e.g. the outcome where all cards end up at one player and all other players end up with none probably won't happen), so I added the assumption that there is a range in the number of cards such that every player gets a number of cards in this range.
 
 When playing with three players, every player will probably get at least three animals, with decent play.\
 Playing with four, everyone will get at least two and at most three or four.\
